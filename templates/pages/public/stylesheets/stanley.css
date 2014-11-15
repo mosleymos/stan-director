@@ -20,3 +20,34 @@ max-width: 900px;
 padding-right: 1.5rem;
 
 }
+
+.sidebar {
+    background-color:#f0b169;
+    box-shadow:10px 10px 50px 5px black;
+}
+
+
+.fixed-background{
+	background-color:#dfd295;
+	box-shadow:10px 10px 50px 5px black;	
+}
+
+.myButton {
+	-moz-box-shadow: 5px 5px 28px -7px #000000;
+	-webkit-box-shadow: 5px 5px 28px -7px #000000;
+	box-shadow: 5px 5px 28px -7px #000000;
+	background-color:#f0b169;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:18px;
+	padding:7px 25px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#cc7231;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

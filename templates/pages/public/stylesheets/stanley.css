@@ -1,31 +1,40 @@
+@font-face {
+  		font-family: "GreyScaleBasicRegular";
+  		src: url('../../fonts/greyscalebasic_regular_macroman/Greyscale_Basic_Regular-webfont.ttf') format("truetype"),
+  			url('../../fonts/greyscalebasic_regular_macroman/Greyscale_Basic_Regular-webfont.eot'),
+  			url('../../fonts/greyscalebasic_regular_macroman/Greyscale_Basic_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/greyscalebasic_regular_macroman/Greyscale_Basic_Regular-webfont.woff') format('woff'),
+        	url('../../fonts/greyscalebasic_regular_macroman/Greyscale_Basic_Regular-webfont.svg#greyscalebasicregular') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+		}
 .sidebar {
     background-color:#f0b169;
 }
 .leftColumn{
+	font-family:GreyScaleBasicRegular;
 	position : fixed;
 	top: 0;
-bottom: 0;
-left: 0;
-width: 35%;
-max-width: 380px;
-padding: 3rem 2rem;
-background-color:#f0b169;
-
+	bottom: 0;
+	left: 0;
+	width: 35%;
+	max-width: 380px;
+	padding: 3rem 2rem;
+	background-color:#f0b169;
 }
 .rightColumn{
+	font-family:GreyScaleBasicRegular;
 	margin-left: 35%;
-width: 65%;
-padding-left: 0;
-max-width: 900px;
-padding-right: 1.5rem;
-
+	width: 65%;
+	padding-left: 0;
+	max-width: 900px;
+	padding-right: 1.5rem;
 }
 
 .sidebar {
     background-color:#f0b169;
     box-shadow:10px 10px 50px 5px black;
 }
-
 
 .fixed-background{
 	background-color:#dfd295;

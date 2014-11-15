@@ -30,11 +30,11 @@
 		}
 @font-face {
   		font-family: "GreyScaleBasicItalic";
-  		src: url('../fonts/greyscalebasic_italic_macroman/Greyscale_Basic_Italic-webfont.ttf') format("truetype"),
-  			url('../fonts/greyscalebasic_italic_macroman/Greyscale_Basic_Italic-webfont.eot'),
-  			url('../fonts/greyscalebasic_italic_macroman/Greyscale_Basic_Italic-webfont.eot?#iefix') format('embedded-opentype'),
-			url('../fonts/greyscalebasic_italic_macroman/Greyscale_Basic_Italic-webfont.woff') format('woff'),
-        	url('../fonts/greyscalebasic_italic_macroman/Greyscale_Basic_Italic-webfont.svg#greyscalebasicregular') format('svg');
+  		src: url('../fonts/greyscalebasic_italic_macroman/Greyscale_Basic_Regular_Italic-webfont.ttf') format("truetype"),
+  			url('../fonts/greyscalebasic_italic_macroman/Greyscale_Basic_Regular_Italic-webfont.eot'),
+  			url('../fonts/greyscalebasic_italic_macroman/Greyscale_Basic_Regular_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/greyscalebasic_italic_macroman/Greyscale_Basic_Regular_Italic-webfont.woff') format('woff'),
+        	url('../fonts/greyscalebasic_italic_macroman/Greyscale_Basic_Regular_Italic-webfont.svg#greyscalebasicregular') format('svg');
     	font-weight: normal;
     	font-style: normal;
 		}
@@ -42,7 +42,7 @@
     background-color:#f0b169;
 }
 .leftColumn{
-	font-family:GreyScaleBasicRegular;
+	font-family:'GreyScaleBasicRegular';
 	position : fixed;
 	top: 0;
 	bottom: 0;
@@ -53,7 +53,7 @@
 	background-color:#f0b169;
 }
 .rightColumn{
-	font-family:GreyScaleBasicRegular;
+	font-family:'GreyScaleBasicRegular';
 	margin-left: 35%;
 	width: 65%;
 	padding-left: 0;
@@ -80,6 +80,9 @@
 	padding:7px 25px;
 	text-decoration:none;
 }
+.btn-default-stanley{
+
+}
 .btn-group:hover {
 	background-color:#cc7231;
 }
@@ -101,17 +104,26 @@
 
 h1{
 		color: #140E09;
-        font-size:13px;
-        text-align:center;
-
 }
 h2{
-color: #140E09;
+		font-family: 'GreyScaleBasicBold';
+		color: #FFFFFF;
+        font-size:23px;
+        
 }
 h3{
-color: #140E09;
+		font-family: 'GreyScaleBasicRegular';
+		color: #140E09;
+        font-size:13px;
+        
 }
 h4{
 color: #140E09;
+}
+p{
+font-family: 'GreyScaleBasicItalic';
+		color: #140E09;
+        font-size:13px;
+        text-align:center;
 }
 

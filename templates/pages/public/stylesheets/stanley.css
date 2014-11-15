@@ -1,7 +1,7 @@
 .sidebar {
     background-color:#f0b169;
 }
-.masthead{
+.leftColumn{
 	position : fixed;
 	top: 0;
 bottom: 0;
@@ -12,7 +12,7 @@ padding: 3rem 2rem;
 background-color:#f0b169;
 
 }
-.listing{
+.rightColumn{
 	margin-left: 35%;
 width: 65%;
 padding-left: 0;

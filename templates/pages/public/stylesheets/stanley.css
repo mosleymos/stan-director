@@ -41,7 +41,7 @@
 	box-shadow:10px 10px 50px 5px black;	
 }
 
-.myButton {
+.btn-group {
 	-moz-box-shadow: 5px 5px 28px -7px #000000;
 	-webkit-box-shadow: 5px 5px 28px -7px #000000;
 	box-shadow: 5px 5px 28px -7px #000000;
@@ -53,10 +53,10 @@
 	padding:7px 25px;
 	text-decoration:none;
 }
-.myButton:hover {
+.btn-group:hover {
 	background-color:#cc7231;
 }
-.myButton:active {
+.btn-group:active {
 	position:relative;
 	top:1px;
 }

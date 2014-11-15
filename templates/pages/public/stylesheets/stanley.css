@@ -1,3 +1,22 @@
 .sidebar {
     background-color:#f0b169;
 }
+.masthead{
+	position : fixed;
+	top: 0;
+bottom: 0;
+left: 0;
+width: 35%;
+max-width: 380px;
+padding: 3rem 2rem;
+background-color:#f0b169;
+
+}
+.listing{
+	margin-left: 35%;
+width: 65%;
+padding-left: 0;
+max-width: 900px;
+padding-right: 1.5rem;
+
+}

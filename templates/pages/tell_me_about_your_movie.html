@@ -11,12 +11,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>   
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="public/stylesheets/stanley.css">
 
     </head>
     <body>
     <div class="container">
-        <div class="row">
-            <div class="col-md-2">
+<!--         <div class="row">
+ -->            <div class="masthead">
                 <img src="public/images/StanleyTransparent.png" alt="Stanley" height="300px" width="300px" />
                 <p>Ok kid,</p>
                 <h2>TELL ME ABOUT YOUR MOVIE !</h2>
@@ -31,15 +32,26 @@
                     <button type="button" class="btn btn-default"><img src="public/images/Google.png" height="50px" width="50px"/></button>
                 </div>               
 
-
                 <div class="btn-group" role="group" aria-label="...">
                     <button type="button" class="btn btn-default"><img src="public/images/Home.png" height="50px" width="50px"/></button>
                     <button type="button" class="btn btn-default"><img src="public/images/Undo.png" height="50px" width="50px"/></button>
                 </div>               
-
                 <h4>Contact</h4>
             </div>
-        </div>
-    </div>
+            <div class="listing">
+                <center>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <p>Tapez votre histoire</p>
+                        <input width="200px" height="200px" type="textarea" class="form-control" placeholder="Tell Me Your Story">
+
+                    </div>
+                    <button type="submit" class="btn btn-default">Generate Trailer</button>
+                </form>
+            </center>
+             </div>
+
+<!--         </div>
+ -->    </div>
     </body>
 </html>

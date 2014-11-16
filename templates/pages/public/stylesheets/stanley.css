@@ -397,14 +397,34 @@ p span{
 
 }
 
-.textInput {
+#textInput {
+  display : block;
   position:absolute;
-  font-size:20px;
+  font-size:28px;
   clear : both;
   width: 60%;
   height: 30%;
   margin-left : 10%;
   margin-top : 5%;
+  resize: none;
+}
+
+label {
+  display : block;
+  position:absolute;
+  clear : both;
+  font-size:36px;
+  margin-left : 10%;
+  margin-top : 2%;
+}
+
+#myCounter {
+  display : block;
+  position:absolute;
+  clear : both;
+  font-size:20px;
+  margin-left : 10%;
+  margin-top : 20%;
 }
 /*///////////////////////// BACKGROUND IMAGE /////////////////////////*/
 img.bg {

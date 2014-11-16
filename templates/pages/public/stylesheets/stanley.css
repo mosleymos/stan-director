@@ -198,34 +198,109 @@ margin-left: -5px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-.hi-icon-contactus:before {
-	content: "\e600";
-}
-.hi-icon-contactus:hover{
-	text-decoration: none;
-}
+/* --- */
 .hi-icon-googleplus:before {
-	content: "\e601";
+	content: "\e60b";
 }
 .hi-icon-googleplus:hover{
 	text-decoration: none;
 }
+/* --- */
 .hi-icon-facebook:before {
-	content: "\e602";
+	content: "\e60c";
 }
 .hi-icon-facebook:hover{
 	text-decoration: none;
 }
+/* --- */
 .hi-icon-twitter:before {
-	content: "\e603";
+	content: "\e60d";
 }
 .hi-icon-twitter:hover{
 	text-decoration: none;
 }
+/* --- */
 .hi-icon-github:before {
-	content: "\e604";
+	content: "\e60e";
 }
 .hi-icon-github:hover{
+	text-decoration: none;
+}
+/* --- */
+.hi-icon-home:before {
+	content: "\e600";
+}
+.hi-icon-home:hover{
+	text-decoration: none;
+}
+/* --- */
+.hi-icon-undo:before {
+	content: "\e601";
+}
+.hi-icon-undo:hover{
+	text-decoration: none;
+}
+/* --- */
+.hi-icon-expand:before {
+	content: "\e602";
+}
+.hi-icon-expand:hover{
+	text-decoration: none;
+}
+/* --- */
+.hi-icon-contract:before {
+	content: "\e603";
+}
+.hi-icon-contract:hover{
+	text-decoration: none;
+}
+/* --- */
+.hi-icon-wink:before {
+	content: "\e604";
+}
+.hi-icon-wink:hover{
+	text-decoration: none;
+}
+/* --- */
+.hi-icon-play:before {
+	content: "\e605";
+}
+.hi-icon-play:hover{
+	text-decoration: none;
+}
+/* --- */
+.hi-icon-pause:before {
+	content: "\e606";
+}
+.hi-icon-pause:hover{
+	text-decoration: none;
+}
+/* --- */
+.hi-icon-stop:before {
+	content: "\e607";
+}
+.hi-icon-stop:hover{
+	text-decoration: none;
+}
+/* --- */
+.hi-icon-arrow-right:before {
+	content: "\e608";
+}
+.hi-icon-arrow-right:hover{
+	text-decoration: none;
+}
+/* --- */
+.hi-icon-arrow-left:before {
+	content: "\e609";
+}
+.hi-icon-arrow-left:hover{
+	text-decoration: none;
+}
+/* --- */
+.hi-icon-mail:before {
+	content: "\e60a";
+}
+.hi-icon-mail:hover{
 	text-decoration: none;
 }
 /*///////////////////////// BUTTON EFFECT /////////////////////////*/

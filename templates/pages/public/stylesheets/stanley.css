@@ -106,12 +106,7 @@ margin-left: 0px;
   height:100%;
 	padding-left: 0;
 	max-width: 900;
-<<<<<<< Updated upstream
 }
-=======
-	padding-right: 1.5rem;
-  	text-align: center;
->>>>>>> Stashed changes
 
 .rightColumn .container{
     width: 100%;
@@ -395,7 +390,6 @@ h1{
 h1 span{
 	font-family: 'GreyScaleBasicBold';
 	font-size: 30px;
-	text-decoration:underline;
 }
 h2{
 		font-family: 'GreyScaleBasicRegular';
@@ -426,11 +420,7 @@ p span{
 #textInput {
   display : block;
   position:absolute;
-<<<<<<< Updated upstream
   font-size:28px;
-=======
-  font-size:20px;
->>>>>>> Stashed changes
   clear : both;
   width: 60%;
   height: 30%;

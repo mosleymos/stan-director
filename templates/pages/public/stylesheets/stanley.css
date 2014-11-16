@@ -1,3 +1,4 @@
+/*///////////////////////// FONTS  /////////////////////////*/
 @font-face {
   		font-family: "GreyScaleBasicRegular";
   		src: url('../fonts/greyscalebasic_regular_macroman/Greyscale_Basic_Regular-webfont.ttf') format("truetype"),
@@ -38,8 +39,32 @@
     	font-weight: normal;
     	font-style: normal;
 		}
+@font-face {
+	font-family: 'EcoIcon';
+	src:url('../fonts/ecoicons/ecoicon.eot');
+	src:url('../fonts/ecoicons/ecoicon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ecoicons/ecoicon.woff') format('woff'),
+		url('../fonts/ecoicons/ecoicon.ttf') format('truetype'),
+		url('../fonts/ecoicons/ecoicon.svg#ecoicon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot?-iv8jso');
+	src:url('../fonts/icomoon/icomoon.eot?#iefix-iv8jso') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff?-iv8jso') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf?-iv8jso') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg?-iv8jso#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 .sidebar {
     background-color:#f0b169;
+}
+/*///////////////////////// ROWS, COLUMNS  /////////////////////////*/
+.row{
+
 }
 .leftColumn{
 	font-family:'GreyScaleBasicRegular';
@@ -47,17 +72,17 @@
 	top: 0;
 	bottom: 0;
 	left: 0;
-	width: 35%;
-	max-width: 380px;
-	padding: 3rem 2rem;
-	background-color:#f0b169;
+	width: 40%;
+	max-width: 400px;
+	padding: 3rem 2rem 2rem ;
+	background-color:rgba(240, 177, 105, 0.65);
 }
 .rightColumn{
 	font-family:'GreyScaleBasicRegular';
 	margin-left: 35%;
-	width: 65%;
+	width: 60%;
 	padding-left: 0;
-	max-width: 900px;
+	max-width: 820;
 	padding-right: 1.5rem;
 	background-color:#dfd295;
 }
@@ -66,8 +91,18 @@
     background-color:#f0b169;
     box-shadow:10px 10px 50px 5px black;
 }
+.footer-left{
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:200px;
+   padding-right: 2rem;
+}
+.footer-left-icon{
+   padding-right: 10px;
+}
 
-
+/*///////////////////////// BUTTONS /////////////////////////*/
 .btn-group {
 	-moz-box-shadow: 5px 5px 28px -7px #000000;
 	-webkit-box-shadow: 5px 5px 28px -7px #000000;
@@ -90,6 +125,120 @@
 	position:relative;
 	top:1px;
 }
+.hi-icon-wrap {
+	text-align: center;
+	margin: 0 auto;
+	padding: 2em 0 3em;
+}
+
+.hi-icon {
+	display: inline-block;
+	font-size: 0px;
+	cursor: pointer;
+	margin: -5px 5px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	color: #fff;
+}
+
+.hi-icon:after {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	content: '';
+	text-decoration: none;
+	-webkit-box-sizing: content-box; 
+	-moz-box-sizing: content-box; 
+	box-sizing: content-box;
+}
+
+.hi-icon:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-size: 48px;
+	line-height: 60px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	display: block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.hi-icon-contactus:before {
+	content: "\e600";
+}
+.hi-icon-contactus:hover{
+	text-decoration: none;
+}
+.hi-icon-googleplus:before {
+	content: "\e601";
+}
+.hi-icon-googleplus:hover{
+	text-decoration: none;
+}
+.hi-icon-facebook:before {
+	content: "\e602";
+}
+.hi-icon-facebook:hover{
+	text-decoration: none;
+}
+.hi-icon-twitter:before {
+	content: "\e603";
+}
+.hi-icon-twitter:hover{
+	text-decoration: none;
+}
+.hi-icon-github:before {
+	content: "\e604";
+}
+.hi-icon-github:hover{
+	text-decoration: none;
+}
+/*///////////////////////// BUTTON EFFECT /////////////////////////*/
+
+.hi-icon-effect-1 .hi-icon {
+	background: rgba(255,255,255,0.1);
+	-webkit-transition: background 0.2s, color 0.2s;
+	-moz-transition: background 0.2s, color 0.2s;
+	transition: background 0.2s, color 0.2s;
+}
+
+.hi-icon-effect-1 .hi-icon:after {
+	top: -7px;
+	left: -7px;
+	padding: 7px;
+	box-shadow: 0 0 0 4px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-webkit-transform: scale(.8);
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	-moz-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transition: transform 0.2s, opacity 0.2s;
+	transform: scale(.8);
+	opacity: 0;
+}
+
+/* Effect 1a */
+.hi-icon-effect-1a .hi-icon:hover {
+	background: rgba(255,255,255,1);
+	color: #41ab6b;
+}
+
+.hi-icon-effect-1a .hi-icon:hover:after {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+/*///////////////////////// PROGRESS BAR /////////////////////////*/
 #progressbar {
   background-color: #140e09;
   border-radius: 0px; /* (height of inner div) / 2 + padding */
@@ -101,15 +250,29 @@
    height: 20px;
    border-radius: 0px;
 }
-
+/*///////////////////////// TEXT STYLES /////////////////////////*/
 h1{
-		color: #140E09;
+		font-family: 'GreyScaleBasicRegular';
+		color: #FFFFFF;
+        padding: 4em 1% 0;
+        font-weight: 800;
+		font-size: 23px;
+}
+h1 span{
+	font-family: 'GreyScaleBasicBold';
+	font-size: 30px;
+	text-decoration:underline;
 }
 h2{
-		font-family: 'GreyScaleBasicBold';
+		font-family: 'GreyScaleBasicRegular';
 		color: #FFFFFF;
-        font-size:23px;
+        font-size:13px;
+        padding: 2em 1% 0;
         
+}
+h2 span{
+	font-family: 'GreyScaleBasicBold';
+	text-decoration:underline;
 }
 h3{
 		font-family: 'GreyScaleBasicRegular';
@@ -121,9 +284,33 @@ h4{
 color: #140E09;
 }
 p{
-font-family: 'GreyScaleBasicItalic';
-		color: #140E09;
-        font-size:13px;
-        text-align:center;
+
 }
+p span{
+
+}
+/*///////////////////////// BACKGROUND IMAGE /////////////////////////*/
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+/*/////////////////////////       END      /////////////////////////*/
+
 

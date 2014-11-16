@@ -69,14 +69,32 @@
 .leftColumn{
 	font-family:'GreyScaleBasicRegular';
 	position : fixed;
+	margin-left: -5px;
 	top: 0;
 	bottom: 0;
-	left: 0;
+	left: -5px;
 	width: 35%;
-	max-width: 380px;
+	max-width: 385px;
 	padding: 3rem 2rem 2rem ;
 	background-color:rgba(240, 177, 105, 0.85);
 }
+.leftColumn:hover{
+margin-left: 5px;
+-webkit-transition: -webkit-transform 0.5s, margin-left 0.5s;
+	-moz-transition: -moz-transform 0.5s, margin-left 0.5s;
+	transition: transform 0.5s, margin-left 0.5s;
+}
+.leftColumn:before{
+margin-left: -5px;
+}
+.leftColumn:after{
+margin-left: -5px;
+-webkit-transition: -webkit-transform 0.5s, margin-left 0.5s ease-in-out;
+	-moz-transition: -moz-transform 0.5s, margin-left 0.5s ease-in-out;
+	transition: transform 0.5s, margin-left 0.5s ease-in-out;
+
+}
+
 .rightColumn{
 	font-family:'GreyScaleBasicRegular';
 	margin-left: 35%;
@@ -228,7 +246,7 @@
 /* Effect 1a */
 .hi-icon-effect-1a .hi-icon:hover {
 	background: rgba(255,255,255,1);
-	color: #41ab6b;
+	color: #cc7231;
 }
 
 .hi-icon-effect-1a .hi-icon:hover:after {

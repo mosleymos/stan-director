@@ -67,6 +67,7 @@
 
 }
 .leftColumn{
+  float : left;
 	font-family:'GreyScaleBasicRegular';
 	position : fixed;
 	margin-left: -5px;
@@ -95,14 +96,18 @@ margin-left: -5px;
 
 }
 
+
+
 .rightColumn{
+  float : right;
 	font-family:'GreyScaleBasicRegular';
-	margin-left: 35%;
+	
 	width: 65%;
 	padding-left: 0;
 	max-width: 900;
 	padding-right: 1.5rem;
-	background-color:#dfd295;
+  background-color:#dfd295;
+
 }
 
 .sidebar {
@@ -122,17 +127,22 @@ margin-left: -5px;
 
 /*///////////////////////// BUTTONS /////////////////////////*/
 .btn-group {
-	-moz-box-shadow: 5px 5px 28px -7px #000000;
+/*	-moz-box-shadow: 5px 5px 28px -7px #000000;
 	-webkit-box-shadow: 5px 5px 28px -7px #000000;
 	box-shadow: 5px 5px 28px -7px #000000;
+    color:#000000;*/
 	background-color:#f0b169;
-	display:inline-block;
 	cursor:pointer;
-	color:#000000;
-	font-size:18px;
-	padding:7px 25px;
+	font-size:36px;
+  color:white;
+  padding:7px 25px;
 	text-decoration:none;
+  position : absolute;
+  margin-right : 0%;
+  margin-top : 40%;
+  opacity: 0.8;
 }
+
 .btn-default-stanley{
 
 }
@@ -140,8 +150,7 @@ margin-left: -5px;
 	background-color:#cc7231;
 }
 .btn-group:active {
-	position:relative;
-	top:1px;
+
 }
 .hi-icon-wrap {
 	text-align: center;
@@ -295,8 +304,7 @@ h2 span{
 h3{
 		font-family: 'GreyScaleBasicRegular';
 		color: #140E09;
-        font-size:13px;
-        
+    font-size:13px;     
 }
 h4{
 color: #140E09;
@@ -306,6 +314,15 @@ p{
 }
 p span{
 
+}
+
+.textInput {
+  position:absolute;
+  clear : both;
+  width: 30%;
+  height: 30%;
+  margin-right : -20%;
+  margin-top : 5%;
 }
 /*///////////////////////// BACKGROUND IMAGE /////////////////////////*/
 img.bg {

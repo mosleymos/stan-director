@@ -72,17 +72,17 @@
 	top: 0;
 	bottom: 0;
 	left: 0;
-	width: 40%;
-	max-width: 400px;
+	width: 35%;
+	max-width: 380px;
 	padding: 3rem 2rem 2rem ;
-	background-color:rgba(240, 177, 105, 0.65);
+	background-color:rgba(240, 177, 105, 0.85);
 }
 .rightColumn{
 	font-family:'GreyScaleBasicRegular';
 	margin-left: 35%;
-	width: 60%;
+	width: 65%;
 	padding-left: 0;
-	max-width: 820;
+	max-width: 900;
 	padding-right: 1.5rem;
 	background-color:#dfd295;
 }
@@ -135,7 +135,7 @@
 	display: inline-block;
 	font-size: 0px;
 	cursor: pointer;
-	margin: -5px 5px;
+	margin: -5px 3px;
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
